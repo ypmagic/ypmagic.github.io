@@ -1,0 +1,11 @@
+html, body {
+	width: 100%;
+}
+
+html {
+	background-color: #000;
+}
+
+body {
+	background-color: grey;
+}
