@@ -79,3 +79,9 @@ p {
 	display: block;
 	border-top: 10px solid #558C89;
 }
+
+@media (max-width: 515px) {
+	.container {
+		width: 100%;
+	}
+}
