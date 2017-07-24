@@ -1,6 +1,11 @@
 @font-face {
 	font-family: Nimbus Sans;
-	src: url("resources/font/10797.otf") format("opentype");
+	src: url("../font/10797.otf") format("opentype");
+}
+
+@font-face {
+	font-family: Nimbus Sans Bold;
+	src: url("../font/10793.otf") format("opentype");
 }
 
 html, body {
@@ -22,11 +27,13 @@ h1 {
 }
 
 h2 {
-	font-family: Nimbus Sans;
+	font-family: Nimbus Sans Bold;
 	font-weight: 400;
+	font-size: 30px;
 	margin: 0 20px;
 	border-left: 5px solid #74AFAD;
 	padding-left: 10px;
+	padding-top: 10px;
 	box-decoration-break: clone;
 }
 
