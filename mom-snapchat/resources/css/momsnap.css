@@ -44,6 +44,15 @@ p {
 	padding: 0 20px;
 }
 
+p a {
+	text-decoration: none;
+	color: #D9853B;
+}
+
+p a:hover {
+	color: #FFB26E;
+}
+
 #snap-logo {
 	width: 100%;
 	margin-top: 10px;
@@ -78,6 +87,14 @@ p {
 	width: 100%;
 	display: block;
 	border-top: 10px solid #558C89;
+}
+
+.copy-bio {
+	width: 100%;
+}
+
+.copy-bio p {
+	text-align: center;
 }
 
 @media (max-width: 515px) {
