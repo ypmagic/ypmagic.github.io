@@ -1,0 +1,74 @@
+@font-face {
+	font-family: Nimbus Sans;
+	src: url("resources/font/10797.otf") format("opentype");
+}
+
+html, body {
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	height: 100%;
+	font-size: 16px;
+	background-color: #ECECEA;
+}
+
+h1 {
+	font-family: Pontano Sans;
+	font-size: 240%;
+	text-align: center;
+	color: #fff;
+}
+
+h2 {
+	font-family: Nimbus Sans;
+	font-weight: 400;
+	margin: 0 20px;
+	border-left: 5px solid #74AFAD;
+	padding-left: 10px;
+	box-decoration-break: clone;
+}
+
+p {
+	font-family: Nimbus Sans;
+	font-size: 100%;
+	font-weight: 300;
+	padding: 0 20px;
+}
+
+#snap-logo {
+	width: 100%;
+	margin-top: 10px;
+}
+
+#snap-logo img {
+	display: block;
+	width: 10%;
+	margin: 0 auto;
+}
+
+.intro p {
+	display: inline-block;
+}
+
+.header {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #74AFAD;
+}
+
+.container {
+	margin: 0 auto 20px auto;
+	width: 70%;
+	background-color: #fff;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.border {
+	width: 100%;
+	display: block;
+	border-top: 10px solid #558C89;
+}
