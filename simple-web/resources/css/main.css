@@ -1,0 +1,106 @@
+@font-face {
+	font-family: Nudista;
+	src: url(../fonts/nudista.otf) format("opentype");
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+h1, h2, h3, h4 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 5em;
+	margin-bottom: 2px;
+	font-family: Roboto;
+}
+
+h2 {
+	font-size: 3em;
+	margin-top: 0;
+	margin-bottom: 2px;
+	font-family: Arimo;
+}
+
+h3 {
+	font-size: 2.7em;
+	margin-top: 0;
+	margin-bottom: 2px;
+	font-family: Pacifico;
+}
+
+h4 {
+	margin-top: 0;
+	font-size: 8em;
+	font-family: Roboto;
+}
+
+.nav-menu {
+	font-family: Nudista;
+	font-weight: 600;
+	width: 100%;
+	height: 10%;
+	background-color: #ff4f4f;
+}
+
+.menu {
+	display: inline-block;
+	padding: 25px;
+	color: #fff;
+}
+
+.menu:hover {
+	background-color: #ff8585;
+}
+
+#to {
+	font-family: none;
+}
+
+// Content
+
+.content {
+	height: 90vh;
+}
+
+.container {
+	height: 90vh;
+	width: 100%;
+	background-image: url("../images/capitol.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.inner-container-left {
+	display: inline-block;
+	width: 60%;
+	height: 100%;
+	margin-right: 0;
+}
+
+.inner-container-left img {
+	position: absolute;
+	height: 70%;
+	bottom: 0;
+}
+
+.inner-container-right {
+	display: inline-block;
+	float: right;
+	width: 40%;
+	height: 100%;
+}
+
+@media (max-width: 376px) {
+	.menu {
+		display: block;
+		border-bottom: 1px solid #000;
+	}
+}

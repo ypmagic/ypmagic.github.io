@@ -1,0 +1,158 @@
+html, body {
+	width: 100%;
+	min-height: 100vh;
+}
+
+body {
+	margin: 0;
+}
+
+/* MAIN CONTAINER */
+.container {
+	width: 100%;
+	min-height: 90vh;
+	text-align: center;
+}
+
+/* TOP WITH BANNER */
+header {
+	min-height: 18vh;
+}
+
+header img {
+	width: 350px;
+	float: left;
+	margin-left: 10%;
+	padding-top: 10px;
+}
+
+/* NAVIGATION */
+
+.navigation {
+	min-height: 40vh;
+	background-color: #073906;
+}
+
+.navbar li {
+	color: #fff;
+	display: inline-block;
+	padding: 10px 4%;
+}
+
+/* MAIN GRID MIDDLE */
+
+.main-grid {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.col {
+	box-sizing: border-box;
+	display: inline-block;
+	min-height: 90vh;
+	vertical-align: top
+}
+
+.col-right {
+	width: 20%;
+	min-height: 80vh;
+	margin-bottom: 50px;
+}
+
+.col-left {
+	width: 25%;
+	margin-right: 5%;
+	background-color: #f6f6f6;
+	border-bottom: 6px solid #073906;
+	box-shadow: 5px 0 1px #e3e3e3;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+.col-left h2 {
+	line-height: 20px;
+}
+
+.col-left h2 a {
+	text-decoration: none;
+	color: #073906;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.col-left h2 a:hover {
+	text-decoration: underline;
+}
+
+.article img {
+	float: right;
+}
+
+.oyf img {
+	padding-top: 20px;
+	width: 200px;
+}
+
+.social ul {
+	padding-left: 0;
+}
+
+.social h2 {
+	color: #073906;
+}
+
+.social li {
+	list-style: none;
+	display: inline-block;
+	padding: 0 20px;
+	background-color: #073906;
+	width: 20px;
+	color: #fff;
+	min-height: 30px;
+}
+
+.social li i {
+	padding-top: 8px;
+}
+
+/* FOOTER */
+
+footer {
+	width: 100%;
+	min-height: 40vh;
+	background-color: #e8e8e8;
+}
+
+.logo-container {
+	width: 10%;
+	display: inline-block;
+}
+
+.logo-container img {
+	width: 100px;
+	padding-top: 30px;
+}
+
+.footer-container {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 30px;
+	display: inline-block;
+}
+
+.about, .links, .copyright {
+	display: inline-block;
+	border-right: 1px solid #073906;
+	text-align: right;
+	padding-right: 10px;
+	line-height: 5px;
+	margin-right: 100px;
+	min-height: 17vh;
+	vertical-align: top;
+}
+
+.copy {
+	font-size: 12px;
+	color: #7a7a7a;
+}
