@@ -30,7 +30,7 @@ h1 {
 .navbar {
 	display: table;
 	width: 50%;
-	vertical-align: middle
+	vertical-align: middle;
 }
 
 .navbar li {
