@@ -67,7 +67,7 @@ h1 {
 .landing-container {
 	width: 100%;
 	min-height: 100vh;
-	background-color: #63d8ff;
+	background: linear-gradient(200deg, #aaffa9, #63d8ff 40%);
 }
 
 .landing-container h1 {
