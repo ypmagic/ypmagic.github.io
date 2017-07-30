@@ -31,6 +31,7 @@ body {
 	width: 500px;
 	font-weight: 700;
 	padding: 30px;
+	position: relative;
 }
 
 .main-nav:hover {
@@ -41,13 +42,14 @@ body {
 
 .dropdown {
 	position: absolute;
-	width: 30%;
+	width: 100%;
 	background-color: #fff;
 	float: none;
-	top: 4.5em;
+	top: 4.8em;
 	padding: 0;
 	transition: opacity 0.3s ease-out;
 	opacity: 0;
+	right: 0;
 }
 
 .dropdown li {
