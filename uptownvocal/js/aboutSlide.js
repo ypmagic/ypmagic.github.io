@@ -14,6 +14,21 @@ function changeHeight() {
   container.style.height = .6 * width + "px";
 }
 
+function preloadImages(array) {
+  if (!preloadImages.list) {
+        preloadImages.list = [];
+    }
+  for (var i = 0; i < array.length; i++) {
+      var img = new Image();
+      img.src = array[i];
+      preloadImages.list.push(img);
+  }
+}
+var imageURLs = ["graphics/homeSlide/1.jpg",
+                 "graphics/homeSlide/2.jpg",
+                 "graphics/homeSlide/3.jpg"];
+preloadImages(imageURLs);
+
 window.addEventListener("resize", changeHeight);
 changeHeight();
 
