@@ -11,7 +11,11 @@ function changePicture() {
 function changeHeight() {
   var width = document.documentElement.clientWidth;
   var container = document.querySelector(".slideshow-container-home");
-  container.style.height = .6 * width + "px";
+  if (width > 712) {
+    container.style.height = .5 * width + "px";
+  } else {
+    container.style.height = .6 * width + "px";
+  }
 }
 
 function preloadImages(array) {
