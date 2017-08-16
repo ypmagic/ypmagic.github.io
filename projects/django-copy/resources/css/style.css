@@ -1,0 +1,62 @@
+html, body {
+	width: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+.nav {
+	background: #0c4b33;
+	overflow: hidden;
+	margin: 0;
+	padding: 10px 0 6px;
+	position: relative;
+	z-index: 0;
+}
+
+.container {
+	max-width: 1400px;
+	padding: 0 4.166667%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.container:before, .container:after {
+	content: "";
+	display: table;
+}
+
+.container:after {
+	clear: both;
+}
+
+.right-nav {
+	float: right;
+	overflow: hidden;
+	max-height: none;
+	width: auto;
+}
+
+.navbar {
+	margin: 0;
+}
+
+.navbar li {
+	display: block;
+	float: left;
+	text-align: left;
+	margin: 0;
+	border: 0;
+}
+
+.navbar li a {
+	padding: 20px 10px;
+}
+
+.meta {
+	float: left;
+	display: block;
+}
+
