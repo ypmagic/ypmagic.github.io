@@ -28,9 +28,9 @@ function preloadImages(array) {
       preloadImages.list.push(img);
   }
 }
-var imageURLs = ["graphics/homeSlide/1.jpg",
-                 "graphics/homeSlide/2.jpg",
-                 "graphics/homeSlide/3.jpg"];
+var imageURLs = ["graphics/aboutSlide/1.jpg",
+                 "graphics/aboutSlide/2.jpg",
+                 "graphics/aboutSlide/3.jpg"];
 preloadImages(imageURLs);
 
 window.addEventListener("resize", changeHeight);
