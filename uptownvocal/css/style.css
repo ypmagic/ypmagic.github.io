@@ -43,8 +43,12 @@ h2 {
   padding-left: 1.2em;
 }
 
+.content-title h2 {
+  font-size: 1.8em;
+}
+
 #rounded-corners {
-	border-radius: 25px;
+	border-radius: 5px;
 }
 
 .colored-border {
@@ -246,9 +250,10 @@ h2 {
  }
 
  .slideshow-container-home {
+   margin-top:30px;
    width: 100%;
    max-width: 1000px;
-   max-height: 700px;
+   max-height: 692px;
    background: url("../graphics/homeSlide/1.jpg");
  }
 
@@ -453,8 +458,9 @@ Video page
   position: relative;
   width: 100%;
   height: 0;
-  padding-bottom: 56.25%;
+  padding-bottom: 40.25%;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .video-frame {
@@ -470,7 +476,7 @@ Video page
 
 .video-container {
   background-color: #fff;
-  width: 56%;
+  width: 80%;
   margin: 0 auto;
   padding: 15px 0;
 }
@@ -517,6 +523,10 @@ Slideshow
   height: 10px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.8);
+}
+
+.arrow-left, .arrow-right {
+  display: none;
 }
 
 /****************************
@@ -646,6 +656,25 @@ Footer
     z-index: 200;
   }
 
+  /* Slideshow */
+  .arrow-left, .arrow-right {
+    display: block;
+    position: absolute;
+    transform: translate(0, 300px);
+  }
+
+  .arrow-left img, .arrow-right img {
+    width: 20px;
+  }
+
+  .arrow-left {
+    left: 20px;
+  }
+
+  .arrow-right {
+    right: 20px;
+  }
+
   /* Members page */
   .member-title {
     margin-top: 1.5em;
@@ -684,16 +713,9 @@ Footer
 
   /* Footer */
   .footer {
-    position: fixed;
-  }
-
-  .above {
-    padding-bottom: 20px;
-  }
-
-  .footer p {
-    display: block;
-    position: absolute;
-    bottom: 0;
+	margin-top:30px;
+	margin-bottom:40px;
+	background-color: #000;
+	text-align: center;
   }
 }

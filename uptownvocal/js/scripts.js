@@ -51,14 +51,19 @@ var pointer = 0;
 /*
 SLIDESHOW
 */
-function changeCircles() {
+function changeCircles(sign) {
+  var circles = document.getElementsByClassName("circle");
   // make current pointer grey
   circles[pointer].style.backgroundColor = "rgba(255, 255, 255, 0.8)";
   // increment pointer if it's not 2
-  if (pointer == circles.length-1) {
+  if (pointer == circles.length-1 && sign) {
     pointer = 0;
   } else {
-    pointer++;
+    if (sign) {
+      pointer++;
+    } else {
+      pointer--;
+    }
   }
   // make current pointer blue
   circles[pointer].style.backgroundColor = "rgba(93, 186, 237, 0.8)";
