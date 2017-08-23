@@ -41,8 +41,8 @@ function changeHeight() {
     container.style.width = .58 * width + "px";
     container.style.height = .41 * width + "px";
   }
-  arrowLeft.style.transform = "translate(0, " + 0.12 * width + "px )";
-  arrowRight.style.transform = "translate(0, " + 0.12 * width + "px )";
+  arrowLeft.style.transform = "translate(0, " + 0.112 * width + "px )";
+  arrowRight.style.transform = "translate(0, " + 0.112 * width + "px )";
 }
 
 function preloadImages(array) {
