@@ -44,13 +44,13 @@ function changeHeight() {
 }
 
 function preloadImages(array) {
-  if (!preloadImages.list) {
-        preloadImages.list = [];
+  if (!preloadImages.cache) {
+        preloadImages.cache = [];
     }
   for (var i = 0; i < array.length; i++) {
       var img = new Image();
       img.src = array[i];
-      preloadImages.list.push(img);
+      preloadImages.cache.push(img);
   }
 }
 var imageURLs = ["graphics/homeSlide/1.jpg",
@@ -59,12 +59,4 @@ var imageURLs = ["graphics/homeSlide/1.jpg",
 preloadImages(imageURLs);
 
 window.addEventListener("resize", changeHeight);
-window.addEventListener('load', function() {
-    var allimages= document.getElementsByTagName('img');
-    for (var i=0; i < allimages.length; i++) {
-        if (allimages[i].getAttribute('data-src')) {
-            allimages[i].setAttribute('src', allimages[i].getAttribute('data-src'));
-        }
-    }
-}, false);
 changeHeight();
