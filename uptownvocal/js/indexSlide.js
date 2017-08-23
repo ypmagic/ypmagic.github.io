@@ -35,12 +35,14 @@ function changeHeight() {
   var width = document.documentElement.clientWidth;
   var container = document.querySelector(".slideshow-container-home");
   if (width > 712) {
-    container.style.height = .45 * width + "px";
+    container.style.width = .5 * width + "px";
+    container.style.height = .32 * width + "px";
   } else {
-    container.style.height = .6 * width + "px";
+    container.style.height = .42 * width + "px";
+    container.style.width = .6 * width + "px";
   }
-  arrowLeft.style.transform = "translate(0, " + 0.2 * width + "px )";
-  arrowRight.style.transform = "translate(0, " + 0.2 * width + "px )";
+  arrowLeft.style.transform = "translate(0, " + 0.12 * width + "px )";
+  arrowRight.style.transform = "translate(0, " + 0.12 * width + "px )";
 }
 
 function preloadImages(array) {

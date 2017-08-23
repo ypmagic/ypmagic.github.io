@@ -243,18 +243,12 @@ h2 {
 /****************************
  Index page
  ****************************/
- .slideshow-home {
- /*640,400*/
-   max-width: 1000px;
-   max-height: 692px;
- }
-
  .slideshow-container-home {
+   margin: 0 auto;
    margin-top:30px;
    width: 100%;
-   max-width: 1000px;
-   max-height: 692px;
    background: url("../graphics/homeSlide/1.jpg");
+   position: relative;
  }
 
  .index-content {
@@ -278,17 +272,11 @@ h2 {
  About page
  ****************************/
 /* SLIDESHOW */
-.slideshow-about {
-  max-width: 1000px; /*600,400*/
-  max-height: 665px;
-}
-
 .slideshow-container-about {
-  width: 100%;
-  max-width: 1000px;
-  max-height: 665px;
+  margin: 0 auto;
   background: url("../graphics/aboutSlide/1.jpg");
   margin-bottom:30px;
+  position: relative;
 }
 
  .about-content {
@@ -505,10 +493,6 @@ Slideshow
   margin-left: auto;
   margin-right: auto;
   width: 54px;
-}
-
-.dots-about {
-  bottom: 20px;
 }
 
 .circle-container {
