@@ -1,0 +1,122 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: Noto Serif;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+/* TEXT STUFF */
+
+h1 {
+	font-family: Montserrat;
+	font-weight: 700;
+	color: #fff;
+	font-size: 100px;
+}
+
+h4 {
+	font-weight: 400;
+	color: #fff;
+	font-size: 40px;
+	font-style: normal;
+	opacity: 0;
+}
+
+strong, em {
+	font-family: Montserrat;
+	color: #2f448a;
+}
+
+/* TOP HALF FORMATTING */
+
+tr {
+	font-size: 40px;
+	text-align: center;
+}
+
+#top {
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#borderMiddle {
+    font-size: 2em;
+    position: relative;
+}
+
+.landing {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: #2f448a;
+}
+
+.header {
+	padding: 20px;
+	padding-left: 50px;
+	text-align: center;
+}
+
+.slider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    background-color: #e38707;
+    width: 0%;
+}
+
+/* TOP FOUR ICONS */
+
+.top-icons {
+	border: 2px solid #fff;
+	width: 100px;
+	height: 100px;
+	opacity: 0;
+}
+
+.fa-github, .fa-envelope-o, .fa-linkedin, .fa-file-text-o {
+	color: #fff;
+}
+
+/* DEVICE COMPATIBILITY */
+
+@media only screen and (max-width: 713px) {
+	h1 {
+		font-size: 70px;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	h1 {
+		font-size: 50px;
+	}
+
+	h4 {
+		font-size: 30px;
+	}
+
+	.top-icons {
+		width: 70px;
+		height: 70px;
+	}
+
+	.fa-github, .fa-envelope-o, .fa-linkedin, .fa-file-text-o {
+		/*font-size: 20px;*/
+	}
+}
+
+@media only screen and (max-width: 392px) {
+	h1 {
+		font-size: 35px;
+	}
+
+	h4 {
+		font-size: 18px;
+	}
+}
