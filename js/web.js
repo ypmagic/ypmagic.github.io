@@ -54,7 +54,7 @@ $("td").on("mouseout", function() {
 
 // icons actions
 document.querySelector("#resume").addEventListener("click", function() {
-	window.open("http://www.youngwpark.com/files/Young Park Resume CS.pdf", "_blank")
+	window.open("http://www.youngwpark.com/files/YoungParkResume.pdf", "_blank")
 });
 
 document.querySelector("#git").addEventListener("click", function() {
