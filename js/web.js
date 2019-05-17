@@ -1,6 +1,6 @@
 // h1 text
 $("#young").typeIt({
-	strings: "Young Park.",
+	strings: "Hero Park.",
 	speed: 70,
 	autoStart: false,
 	callback: function() {
@@ -54,7 +54,7 @@ $("td").on("mouseout", function() {
 
 // icons actions
 document.querySelector("#resume").addEventListener("click", function() {
-	window.open("http://www.youngwpark.com/files/YoungParkResume.pdf", "_blank")
+	window.open("http://www.youngwpark.com/files/HeroResume.pdf", "_blank")
 });
 
 document.querySelector("#git").addEventListener("click", function() {
@@ -62,9 +62,9 @@ document.querySelector("#git").addEventListener("click", function() {
 });
 
 document.querySelector("#linked").addEventListener("click", function() {
-	window.open("http://www.linkedin.com/in/theyoungthought", "_blank")
+	window.open("http://www.linkedin.com/in/youngparkk", "_blank")
 });
 
 document.querySelector("#ema").addEventListener("click", function() {
-	window.open("mailto:young_park@brown.edu", "_blank")
+	window.open("mailto:yp@brown.edu", "_blank")
 });
