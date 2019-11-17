@@ -1,6 +1,6 @@
 // h1 text
 $("#young").typeIt({
-	strings: "Hero Park.",
+	strings: "Young Park",
 	speed: 70,
 	autoStart: false,
 	callback: function() {
